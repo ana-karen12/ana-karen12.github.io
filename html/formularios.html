@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>Formularios en Html</title>
+       <link rel="stylesheet" href="../css/style_page.css" type="text/css">
+         </head>
+        <body>
+            <header>
+                <h1>FORMULARIOS EN HTML</h1>
+            </header>
+        <nav> 
+            <ul> 
+                <li><a href="../index.html">Formatos</a></li>
+                <li><a href="listas.html">listas</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+            </nav>
+            <main>
+                <section>
+                    <h2>Formulario de ingreso</h2>
+                    <p>Para acceder a la pagina completa las siguientes preguntas.</p>
+                    <form id="form1" name="form1" method="get">
+                        <label for="textfield">USUARIO:</label>
+                        <input name="usuario" type="text"  id="usuario" maxlength="30">
+                        <label for="password">CONTRASEÑA:</label>
+                        <input name="password" type="password" id="password" maxlength="6">
+                        <input type="submit" name="submit" id="submit" value="Enviar">
+                    </form>
+                </section>
+                <section>
+                    <h2>Formulario</h2>
+                    <p>Completar la informacón personal.</p>
+                    <form id="form2" name="form1" method="get">
+                        <label for="nombre">NOMBRE:</label>
+                        <input name="nombre" type="text"  id="nombre" maxlength="30">
+                       <label for="apellidos">APELLIDOS:</label>
+                        <input name="apellidos" type="text"  id="apellidos" maxlength="30">
+                        <input type="submit" name="submit" id="submit" value="Enviar">
+                    </form>
+                </section>
+                <section>
+                    <h2>Formulario</h2>
+                    <p>Completar datos de acceso.</p>
+                    <form action="" method="post" name="form3" id="form3">
+                      <label for="date">FECHA DE NACIMIENTO&nbsp; :</label>
+                      <input type="date" name="date" id="date">
+                      <label for="color">COLOR FAVORITO:</label>
+                      <input type="color" name="color" id="color">
+<label for="range">RANGO DE CONOCIMIENTOS:</label>
+                      <input name="range" type="range" id="range" max="10" min="1">
+                      <label for="time">HORA DE TÉRMINO&nbsp; :</label>
+                      <input type="time" name="time" id="time">
+<label for="textarea">OBSERVACIONES:</label>
+                      <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+                      <input type="submit" name="submit2" id="submit2" value="Enviar">
+                      
+                    </form>
+                    
+                </section>
+            </main>
+            <footer>
+              <h5> Elaborado por: Ana Karen Ramos Machado</h5>
+            </footer>
+    </body>
+</html>

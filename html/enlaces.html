@@ -1,0 +1,149 @@
+<html>
+    <head>
+    <title>Enlaces en html</title>
+        <style type="text/css">
+            *{
+                margin: 0px;
+                padding: 0px:
+            }
+            header, nav, main, footer{
+              width: 100%;
+                color: #EEEEEE;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 30px;
+            }
+            header{
+               background-color:#201E43;
+                height: 50px;
+            }
+            nav{
+                height: 50px;
+                background-color: #134B70;
+            }
+            ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            li{
+                display: inline-block;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            main{
+                height: auto;
+                background-color: #EEEEEE;
+                padding: 30px;
+            }
+            footer{
+                height: 50px;
+                background-color: #201E43;
+            }
+            section{
+                width: 800px;
+                background-color: #508C9B;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                padding: 30px;
+            }
+            h2{
+                margin-bottom: 30px;
+            }
+            h1,h5{
+                text-align: center;
+                padding: 30px;
+            }
+            p{
+                margin-bottom: 20px;
+            }
+           
+            }
+            p a:visited{
+                color: #201E43;
+            }
+            p a:link{
+                color: #EEEEEE;
+                font-weight: bolder;
+            }
+            p a:active{
+                color: orange;
+            }
+            
+         ul li{
+                width: 75px;
+                background-color: #EEEEEE;
+                color: #201E43;
+                padding: 10px;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+            ul li a{
+                text-decoration: none;
+                color: #201E43;
+            }
+         
+            main nav{
+                width: 600px;
+            }
+            /*nav ul li a:link nav ul li a:visited{
+                color: #508c9b;
+                font-weight: bold;
+            }
+            nav ul li a:hover{
+                color: #201E43;
+            }*/
+          nav li:hover, nav li a:hover{
+                background-color:#201E43;
+                color:#EEEEEE;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>DATOS UNIVERSITARIOS</h1>
+        </header>
+        <nav>
+            <ul>
+			    <li><a href="index.html">Formatos</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+            <h2 id="enlace_externos">Mi casa de estudios</h2>
+            <p>Tercera mejor institución de educación superior en México, después de la UNAM y el IPN, según University Ranking by Academic Performance (URAP) 2015-2016, Hablamos de la Benemérita Universidad Autónoma de Puebla <a href="http://www.buap.mx">BUAP</a> cuyas raíces se remontan al siglo XVI, constituye un gran pilar de la educación superior y la investigación científica en la región, y ocupa un destacado sitio entre las universidades públicas del país, gracias al esfuerzo conjunto de todos los miembros de la institución. Así lo redacta en su página de <a href="https://www.buap.mx/historia_universitaria" target="_blank"> Historia Universitaria.</a> Lo que hoy es la Benemérita Universidad Autónoma de Puebla, es fruto de una larga historia que se remonta al 9 de mayo de 1578, cuando un grupo de religiosos jesuitas establecieron su residencia en Puebla, y a petición expresa del Cabildo de la ciudad fundaron el Seminario de la Compañía de Jesús de San Jerónimo.</p>
+            <p> La madurez de la comunidad universitaria y la intervención responsable de los miembros del Consejo Universitario lograron sacar adelante a la institución, en la que se inició un camino de desarrollo académico, científico y cultural que la ubica hoy entre las mejores universidades del país.</p>
+            </section>
+            <section>
+                <h2 id="enlaces_internos">Materia: Diseño de interfaz gráfica de usuario</h2>
+                <p>Pertnece a la lista de materias de la carrera de Diseño gráfico, en ella se inparten clases de como hacer una página web por medio de códigos html y css, para muestra de ello se realizó una <a href="listas.html" target="_blank">práctica de listas</a> la cual indica los estados que he visitado, los lugares que me gustaria visitar con mi familia y  mis lugares favoritos en mi pueblo de origen, Chila de las flores, para ello he dejado un un enlace de descarga  <a href="listas.html" download>Codigo Práctica listas</a> donde se puede observar esta informacion y tenerla presente ya que sirve de guia para futuros viajes </p>
+                <p>Esta materia me ha resultado bastante interesante y muy dinamica en la forma en que se imparte la clase, aunque se complica a veces cuando el codigo esta dañado o no se tiene la precaucion de realizarlo con debida atención para que no se pase nada y todo pueda funcionar de manera correcta.</p>
+            </section>
+            <section>
+                <h2 id="enlaces_de_pagina"> Enlaces de página</h2>
+                <p>Con esta práctica podemos colocar enlaces dentro de nustra página web asi poder ir de una seccion a otra al alcance de un clik
+                </p>
+                <p> Con esta última sección damos por terminada esta práctica.</p>
+            </section>
+            <nav>
+                <ul>
+                    <li><a href="#enlace_externos">Mi casa de estudios</a></li>
+                    <li><a href="#enlaces_internos">Diseño de interfaz</a></li>
+                    <li><a href="#enlaces_de_pagina">Enlaces de página</a></li>
+                </ul>
+            </nav>
+        </main>
+        <footer>
+        <h5>Elaborado por: Ana Karen Ramos Machado</h5>
+        </footer>
+    </body>
+</html>
